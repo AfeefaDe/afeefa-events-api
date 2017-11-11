@@ -1,3 +1,5 @@
+require Rails.root.join('app/concepts/event/operation/show').to_s
+
 class EventsController < ApplicationController
 
   def show
